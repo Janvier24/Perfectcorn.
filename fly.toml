@@ -1,0 +1,14 @@
+app = "perfectcorn"
+
+[build]
+  image = "node:16"
+
+[env]
+  TELEGRAM_BOT_TOKEN = "your-telegram-bot-token"
+  VONAGE_API_KEY = "your-vonage-api-key"
+  VONAGE_API_SECRET = "your-vonage-api-secret"
+  GEO_API_KEY = "your-geo-api-key"
+
+[experimental]
+  allowed_public_ports = [3000]
+  auto_rollback = true
